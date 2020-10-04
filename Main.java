@@ -40,7 +40,7 @@ class Main {
    }
 
    for(int i=0; i<daysPaidFor;i++){
-     System.out.println("The debtor paid for pay"+ daysOfTheMonthDefaulted[i]);
+     System.out.println("The debtor paid for pay" + daysOfTheMonthDefaulted[i]);
    }
 
    if(amountPaid%amountPayablePerDay>0 &&amountPaid<totalAmountToPay){
@@ -57,8 +57,8 @@ class Main {
      System.out.println("The amount that is to be paid is" + amountLeftToPay);
    }
    else if(amountPaid>totalAmountToPay){
-     plus = amountPaid - totalAmountToPay;
-     System.out.println("The amount been owed is " +plus);
+     Plus = amountPaid - totalAmountToPay;
+     System.out.println("The amount been owed is " +Plus);
    }
    else if(amountPaid == totalAmountToPay){
      System.out.println("You have paid the exact amount!");
