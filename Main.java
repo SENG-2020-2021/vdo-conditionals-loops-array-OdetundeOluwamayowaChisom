@@ -40,7 +40,7 @@ class Main {
    }
 
    for(int i=0; i<daysPaidFor;i++){
-     System.out.println("The debtor paid for pay" + daysOfTheMonthDefaulted[i]);
+     System.out.println("The debtor paid for pay " + daysOfTheMonthDefaulted[i]);
    }
 
    if(amountPaid%amountPayablePerDay>0 &&amountPaid<totalAmountToPay){
@@ -54,7 +54,7 @@ class Main {
    // calculate amount the debtor is left to pay if he did not pay complete fees and the days not paid for or  check if the debtor paid extra and the extra amount he paid for, or if he paid the exact amount needed to be paid and print likewise
    if(amountPaid<totalAmountToPay){
      amountLeftToPay= totalAmountToPay - amountPaid;
-     System.out.println("The amount that is to be paid is" + amountLeftToPay);
+     System.out.println("The amount that is to be paid is " + amountLeftToPay);
    }
    else if(amountPaid>totalAmountToPay){
      Plus = amountPaid - totalAmountToPay;
