@@ -40,7 +40,7 @@ class Main {
    }
 
    for(int i=0; i<daysPaidFor;i++){
-     System.out.println("The debtor paid for pay " + daysOfTheMonthDefaulted[i]);
+     System.out.println("The debtor paid for day " + daysOfTheMonthDefaulted[i]);
    }
 
    if(amountPaid%amountPayablePerDay>0 &&amountPaid<totalAmountToPay){
